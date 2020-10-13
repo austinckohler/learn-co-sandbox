@@ -1,0 +1,17 @@
+git branch new-branch-name
+This will create a local branch called new-branch-name. If we type git branch, we will see all the branches.
+$ git branch
+* master
+  new-branch-name
+  
+  We need to get "on" new-branch-name. To do this we "check out" the new branch like so: 
+  git checkout new-branch-name
+  
+  git branch - confirms "movement" into new branch new-branch-name
+  master
+* new-branch-name
+
+If we want to create a new branch and move onto that branch in a single command, we can use:
+git checkout -b new-branch-name
+
+git checkout - : shortcut to switch back to previous branch 
